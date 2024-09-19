@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>GATE TAIYARI</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #000; /* Header color black */
+      padding: 20px;
+      color: white;
+    }
+
+    .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-size: 1.5em;
+      font-weight: bold;
+    }
+
+    .nav-links {
+      list-style: none;
+      display: flex;
+    }
+
+    .nav-links li {
+      margin-left: 20px;
+    }
+
+    .nav-links a {
+      color: white;
+      text-decoration: none;
+      font-size: 1.1em;
+    }
+
+    .nav-links a:hover {
+      text-decoration: underline;
+    }
+
+    .cta {
+      background: #FFC107;
+      padding: 10px 20px;
+      color: black;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+
+    .cta:hover {
+      background: #FFB300;
+    }
+
+    .hero {
+      background: #f4f4f4;
+      padding: 50px 0;
+      text-align: center;
+    }
+
+    .hero h2 {
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      margin-bottom: 30px;
+    }
+
+    .hero .cta {
+      background: #007BFF;
+      color: white;
+      padding: 15px 30px;
+    }
+
+    footer {
+      background: #000; /* Footer color black */
+      color: white;
+      text-align: center;
+      padding: 20px;
+      position: fixed;
+      width: 100%;
+      bottom: 0;
+    }
+
+    /* Section for additional links */
+    .resources {
+      background: #f8f8f8;
+      padding: 40px;
+      text-align: center;
+    }
+
+    .resource-cards {
+      display: flex;
+      justify-content: space-around;
+      padding: 20px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 8px;
+      padding: 20px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+      width: 30%;
+      text-align: center;
+    }
+
+    .card h3 {
+      margin-bottom: 20px;
+    }
+
+    .card a {
+      background: #007BFF;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+      display: inline-block;
+    }
+
+    .card a:hover {
+      background: #0056b3;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+      }
+
+      .nav-links {
+        flex-direction: column;
+        margin-top: 10px;
+      }
+
+      .nav-links li {
+        margin: 10px 0;
+      }
+
+      .resource-cards {
+        flex-direction: column;
+      }
+
+      .card {
+        width: 80%;
+        margin-bottom: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1 class="logo">GATE TAIYARI</h1>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="https://www.linkedin.com/in/chandan-katiyar-432838261/">LinkedIn</a></li>
+          <li><a href="https://chandank0.github.io/codsoft-project-repo-github/">ECE Academics</a></li>
+          <li><a href="#">About</a></li>
+        </ul>
+      </nav>
+      <h1 class="logo" id="greeting">GATE TAIYARI</h1>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h2>Welcome to GATE TAIYARI</h2>
+        <p>One-stop platform for GATE exam preparation materials. Founded and managed by Chandan Katiyar, GATE Prep is dedicated to providing high-quality resources, including previous year papers, mock tests, and curated content to help students succeed in the GATE examination.</p>
+        <a href="#" class="cta">Explore GATE Materials</a>
+      </div>
+    </section>
+
+    <!-- New Resources Section -->
+    <section class="resources">
+      <h2>GATE MATERIAL</h2>
+      <div class="resource-cards">
+        <!-- GATE Previous Papers -->
+        <div class="card">
+          <h3>GATE Previous Papers</h3>
+          <p>Access past GATE exam papers to enhance your preparation.</p>
+          <a href="https://gate.iitkgp.ac.in/old_question_papers.html" target="_blank">View Papers</a>
+        </div>
+        <!-- YouTube Channel -->
+        <div class="card">
+          <h3>NETWORK ANALYSIS AND SYNTHESIS</h3>
+          <p>VIDEO LECTURES .</p>
+          <a href="https://www.youtube.com/watch?v=TMUg_jcGv3A&list=PLgzsL8klq6DJ6fwXWK4TN9T0flIRuVsAb" target="_blank">Visit Channel</a>
+        </div>
+        <div class="card">
+          <h3>ENGINEERING MATHEMATICS</h3>
+          <p>VIDEO LECTURES .</p>
+          <a href="https://www.youtube.com/watch?v=b-UZJVdLbXc&list=PLvTTv60o7qj_tdY9zH7YceES7jfXiZkAz" target="_blank">Visit Channel</a>
+        </div>
+        <div class="card">
+          <h3>ANALOG ELECTRONICS</h3>
+          <p>VIDEO LECTURES .</p>
+          <a href="https://youtube.com/playlist?list=PLgzsL8klq6DK3J0amVI70Of1blA9vEXaD&si=vVhpDnk-lUywk62_" target="_blank">Visit Channel</a>
+        </div>
+        <!-- Mock Tests -->
+        <div class="card">
+          <h3>Mock Tests</h3>
+          <p>Take online mock tests to practice and assess your knowledge.</p>
+          <a href="#">Start Mock Test</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© Special thanks to our guides and mentors.</p>
+  </footer>
+
+  <script>
+    // JavaScript to change greeting based on the time
+    function updateGreeting() {
+      const currentHour = new Date().getHours();
+      const greetingElement = document.getElementById('greeting');
+      let greetingMessage = 'GATE TAIYARI';
+
+      if (currentHour >= 5 && currentHour < 12) {
+        greetingMessage = 'Good Morning, Welcome to GATE TAIYARI!';
+      } else if (currentHour >= 12 && currentHour < 17) {
+        greetingMessage = 'Good Afternoon, Welcome to GATE TAIYARI!';
+      } else if (currentHour >= 17 && currentHour < 21) {
+        greetingMessage = 'Good Evening, Welcome to GATE TAIYARI!';
+      } else {
+        greetingMessage = 'Good Night, Welcome to GATE TAIYARI!';
+      }
+
+      greetingElement.textContent = greetingMessage;
+    }
+
+    // Call the function to update greeting when the page loads
+    window.onload = updateGreeting;
+  </script>
+</body>
+</html>
